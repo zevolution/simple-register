@@ -1,7 +1,15 @@
 # Simple-Register
+## Table of contents
+- [About the project](#about-the-project)
+- [Description](#description)
+- [Built with](#built-with)
+- [Instalation](#instalation)
+- [Run](#run)
+- [Notes](#notes)
+- [License](#license)
 
 ## About the project
-Simple-Register is a simple project that I created as an example for my bro Endizera.
+Simple-Register is a simple project that I created as an example to my bro Endizera.
 
 ## Description
 This project basically contains:
@@ -13,17 +21,16 @@ This project basically contains:
 ## Built with
 * Express
 * Mongoose
-* Nodemailer
 
 ## Installation
 
-1. Clone the repo
+1. To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
 ```sh
 # Git CLI
-git clone https://gitub.com/JoseLSB/simple-register.git
+git clone https://gitub.com/zevolution/simple-register.git
 
 # Github CLI
-gh repo clone joselsb/simple-register
+gh repo clone zevolution/simple-register
 ```
 
 2. Install NPM Packages
@@ -31,7 +38,7 @@ gh repo clone joselsb/simple-register
 npm install
 ```
 
-3. Configure the environment properties. The settings below must be made in a `.env` file.
+3. Configure the environment properties. The settings below must be added in a `.env` file.
 
 ```properties
 # MongoDB Configurations
@@ -52,6 +59,16 @@ Use the package manager [npm](https://www.npmjs.com/) to run Simple-Register.
 ```bash
 npm run dev
 ```
+
+## Notes
+### MongoAtlas
+You can use [MongoAtlas](https://www.mongodb.com/pricing) as a cloud database service. They provide a free database in a shared cluster of up to `512MB`.
+
+### Insomnia File
+You can import [simple-register-api-insomnia.json](https://gist.github.com/zevolution/6f469ba51e03ae4e5215dc06f63d60e2) to use the API.
+
+### Node Version
+This project was created using node version `10.16.0`.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
