@@ -3,7 +3,7 @@
 - [About the project](#about-the-project)
 - [Description](#description)
 - [Built with](#built-with)
-- [Instalation](#instalation)
+- [Installation](#instalation)
 - [Run](#run)
 - [Notes](#notes)
 - [License](#license)
