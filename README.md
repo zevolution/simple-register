@@ -27,7 +27,7 @@ This project basically contains:
 1. To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
 ```sh
 # Git CLI
-git clone https://gitub.com/zevolution/simple-register.git
+git clone https://github.com/zevolution/simple-register.git
 
 # Github CLI
 gh repo clone zevolution/simple-register
